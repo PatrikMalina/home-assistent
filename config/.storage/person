@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "patrik_malina",
+        "name": "Patrik Malina",
+        "user_id": "86d195ed95d34fdb9ea1bed14171a616",
+        "device_trackers": []
+      }
+    ]
+  }
+}
