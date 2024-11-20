@@ -83,8 +83,25 @@
         "jwt_key": "488b824bc21374312907cf8478cd506e5ebdd3b341ed306ac85f779db9ac8667718adacbffd54fe32850da8325477748123d45c7b906fd49b424a23bf39203d2",
         "last_used_at": "2024-11-17T17:53:56.269042+00:00",
         "last_used_ip": "172.22.0.1",
-        "expire_at": 1740765236.269042,
+        "expire_at": 1740767897.660002,
         "credential_id": "1c7427bd21464e1bba488ed769949764",
+        "version": "2024.11.3"
+      },
+      {
+        "id": "77e4d0349d7443899815c723983e458f",
+        "user_id": "86d195ed95d34fdb9ea1bed14171a616",
+        "client_id": null,
+        "client_name": "Python",
+        "client_icon": null,
+        "token_type": "long_lived_access_token",
+        "created_at": "2024-11-17T18:04:03.400227+00:00",
+        "access_token_expiration": 315360000.0,
+        "token": "aa3b978ec003155439fe8186c4cc9f95f038cd5dacf65f350db40419bb9d8dd137f3d21f6eebebf5d1b4348030378b350a40135a878302ee310e332938b237c8",
+        "jwt_key": "0e473382fe0cfdbe89425029816da31327d9c33d154c41792959f9f7ad4c09b3cf1fd13672536b5fcb6bbadadf7947c31b5e72d5da8488ddc75ce1d0d607e9f9",
+        "last_used_at": "2024-11-17T18:04:03.400302+00:00",
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
         "version": "2024.11.3"
       }
     ]

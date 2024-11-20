@@ -9,3 +9,16 @@ services:
     ports:
       - '8123:8123'
     restart: unless-stopped
+
+  mosquitto:
+    image: eclipse-mosquitto:latest
+    container_name: mosquitto
+    hostname: mosquitto
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    ports:
+      - '1883:1883'
+      - '9001:9001'
+    restart: unless-stopped
