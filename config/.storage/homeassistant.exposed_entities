@@ -25,6 +25,20 @@
             "should_expose": false
           }
         }
+      },
+      "sensor.weather_station_temperature": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.weather_station_humidity": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
       }
     }
   }

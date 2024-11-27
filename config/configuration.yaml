@@ -1,4 +1,3 @@
-
 # Loads default set of integrations. Do not remove.
 default_config:
 
@@ -9,3 +8,14 @@ frontend:
 automation: !include automations.yaml
 script: !include scripts.yaml
 scene: !include scenes.yaml
+
+mqtt:
+  sensor:
+    - name: 'Weather Station Temperature'
+      state_topic: 'home/sensor/weather_station'
+      value_template: '{{ value_json.temperature }}'
+      unit_of_measurement: '°C'
+    - name: 'Weather Station Humidity'
+      state_topic: 'home/sensor/weather_station'
+      value_template: '{{ value_json.humidity }}'
+      unit_of_measurement: '%'
