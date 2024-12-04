@@ -39,6 +39,27 @@
             "should_expose": false
           }
         }
+      },
+      "sensor.weather_station_air_quality": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.weather_station_tvoc": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
+      },
+      "sensor.weather_station_eco2": {
+        "assistants": {
+          "conversation": {
+            "should_expose": false
+          }
+        }
       }
     }
   }
